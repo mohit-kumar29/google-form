@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .btn {
+      padding: 12px 24px;
+      margin: 10px;
+      background: #2c6cbf;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<h2>PMT Observation Report</h2>
+
+<button class="btn" onclick="goToForm('Attempted')">Attempted</button>
+<button class="btn" onclick="goToForm('Conveyance')">Conveyance</button>
+
+<script>
+function goToForm(type) {
+  window.location.href =
+    "https://docs.google.com/forms/d/e/1FAIpQLSdtrU1KukiKbSstEeqPihFu2nl0kerVrU35brlc-wf8_HrkPQ/viewform?usp=pp_url" + type;
+}
+</script>
+
+</body>
+</html>
